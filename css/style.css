@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Azeret Mono", monospace;
+}
+:root{
+    --text-color: #0D1321;
+    --main-color: rgba(13, 19, 33, 0.7);
+}
+h2{
+    font-size: 48px;
+    font-weight: 800;
+}
+p {
+	font-size: 18px;
+	font-size: 500;
+	color: var(--main-color);
+	line-height: 30px;
+}
+section,header,footer{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    display: inline-flex;
+    justify-content: space-between;
+    width: 1440px;
+    align-items: center;
+    padding: 30px 30px;
+    gap: 40px;
+}
+.logo a{
+    text-decoration: none;
+    color: var(--text-color);
+    font-size: 28px;
+}
+
+.btn{
+    background: transparent;
+    color: var(--text-color);
+    border: 2px solid var(--text-color);
+    padding: 15px 20px;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: 0.5s ease;
+    &:hover{
+        color: var(--main-color);
+        border-color: var(--main-color);
+    }
+}
+.hero{
+    background-color: white;
+    background: url(/assets/img/Hero-bg.png);
+    padding: 30px 0px;
+}
+.hero-container{
+    flex-direction: column;
+}
+.hero-container h2,p {
+	text-align: center;
+}
+.hero-container .btn{
+    background: black;
+    color: white;
+    transition: 0.5s ease;
+    &:hover{
+        background: transparent;
+        color: black;
+        transform: translateY(10px);
+    }
+}
+
+
+
+
+
+/* Responsive Designs */
+@media (max-width: 1200px){
+    br{
+        display: none !important;
+    }
+}
