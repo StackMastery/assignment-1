@@ -8,6 +8,8 @@
 :root{
     --text-color: #0D1321;
     --main-color: rgba(13, 19, 33, 0.7);
+}html{
+    scroll-behavior: smooth;
 }
 body{
     overflow-x:hidden ;
@@ -201,6 +203,88 @@ header .container{
             width: auto;
             height: auto;
             align-self: flex-start;
+        }
+        .content-box-rtl{
+            display: flex;
+            flex-direction: column;
+            gap: 13px;
+        }
+    }
+}
+#contact-box {
+	width: 100%;
+	border-radius: 16px;
+	background-color: #050505;
+	padding: 100px 30px;
+    background-position: center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-image: red; 
+}
+.contact-box{
+    h2,p{
+        color: white;
+    }
+    form{
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        input {
+            background: white;
+            border: none;
+            outline: none;
+            padding: 18px 20px;
+            border-radius: 8px;
+            width: 40%;
+            font-size: 16px;
+            color: var(--main-color);
+        }
+        input::placeholder{
+            color: var(--main-color);
+        }
+        button {
+            background: white;
+            border: none;
+            outline: none;
+            padding: 0px 30px;
+            border-radius: 8px;
+            font-size: 16px;
+            color: var(--main-color);
+            transition: 0.5s ease;
+            border: 1px solid ;
+            &:hover{
+                background: var(--main-color);
+                color: rgb(255, 255, 255);
+                border: 1px solid white;
+            }
+        }
+    }
+}
+footer{
+    background-color: rgba(13, 19, 33, 0.03);
+    .footer{
+        width: 100%;
+        flex-direction: row;
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        padding:10px 0;
+        p{
+            font-weight: 700;
+            font-size: 20px;
+            color: black;
+        }
+        .social-icons{
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
+            img{
+                transition: 0.5s ease;
+                 &:hover{
+                    transform: scale(1.1);
+                    filter: blur(2px);
+                }
+            }
         }
     }
 }
