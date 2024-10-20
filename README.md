@@ -1,6 +1,6 @@
 # Programming Hero Assignment 1
 
-> **Important:**  
+> [!Important]  
 > The landing page must match the Figma design using only HTML and CSS. Do not use any CSS library, and do not copy anyone's project.
 
 ## Technologies Used
