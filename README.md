@@ -1,22 +1,20 @@
-## Programming Hero Assignment 1 
+# Programming Hero Assignment 1
 
-> [!IMPORTANT]
-> The landing page must match the Figma design using only HTML and CSS. Do not use any CSS library and do not copy anyone's project.
+> **Important:**  
+> The landing page must match the Figma design using only HTML and CSS. Do not use any CSS library, and do not copy anyone's project.
 
-#
-What I Used To Make This Project 
+## Technologies Used
 
-  - HTML 5 - HyperText Markup Language
-  - CSS 3 - Cascading Style Sheets
-  
-  
-#
-Used Files Types
+- **HTML5**: HyperText Markup Language
+- **CSS3**: Cascading Style Sheets
 
+## Files Used
 
-  - SVG - Scalable Vector Graphics
-  - PNG - Portable Network Graphic
+- **SVG**: Scalable Vector Graphics for icons or other graphics
+- **PNG**: Portable Network Graphics for images
 
-Project Overview
+## Project Overview
 
-![Project Overview]([https://myoctocat.com/assets/images/base-octocat.svg](https://res.cloudinary.com/dogyg2j0h/image/upload/v1729440477/screencapture-stackmastery-github-io-assignment-1-2024-10-20-22_04_10_tfwnug.png))
+Here’s a preview of the project:
+
+![Project Overview](https://res.cloudinary.com/dogyg2j0h/image/upload/v1729440477/screencapture-stackmastery-github-io-assignment-1-2024-10-20-22_04_10_tfwnug.png)
